@@ -1,0 +1,151 @@
+.cardapio {
+    /* max-width: 425px; */
+    
+
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1000px 100px;
+    grid-template-areas: 
+      "header"
+      "content"
+      "footer" */
+      background-color: black;
+  }
+  .paper-root {
+      background-color: #ffc025  !important;
+  }
+  .details {
+      background-color: rgba(59, 54, 54, 0.637) !important;
+  }
+  .header{
+    grid-area: header; 
+  }
+  .content{
+    grid-area: content;
+    padding-bottom: 100px;
+    
+  }
+  .footer{
+    grid-area: footer;
+    background-color: black;
+  }
+.text{
+    text-align: center;
+}
+.img-header {  
+    height: 50px;
+    float: right;
+    position: relative; 
+	left: -1px;  
+    top: -9px;
+    margin-right: 5px;
+}
+
+.img {  
+    height: 50px;
+    float: left;
+    position: relative; 
+	left: -1px;  
+    top: -9px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.preco {
+    text-align: center;
+    color: rgb(1, 153, 9);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.footer{
+    
+    position: fixed;
+    bottom:0; 
+}
+.wpp{
+    height: 90px;
+}
+@media only screen and (max-width: 375px) {
+    .wpp{
+        width: 375px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .wpp{
+        width: 320px;
+    }
+}
+.img-parque{
+    max-width: 420px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (max-width: 425px) {
+    .img-parque {
+        max-width: 380px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .img-parque {
+        max-width: 320px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .img-parque {
+        max-width: 270px;
+    }
+}
+.icon-whatsapp {
+    width: 25px;
+    height: 40px;
+    color: rgb(1, 153, 9);  
+}
+
+.font {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Coolvetica';
+    font-size: 20px;
+    text-align: center;
+}
+.font-title{
+    font-family: 'Coolvetica';
+    font-size: 30px;
+}
+.font-topic {
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Fredericka the Great', cursive; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cabecalho {
+    display: inline;
+    font-size: 30px;
+}
+.icones {
+    float: left;
+    width: 30px;
+}
+.back-icon {
+    margin-right: 0px;
+    width: 35px;
+    height: 35px;
+    color: black;
+}
+.avaliacao {
+    margin-right: 40px;
+    color: black;
+    width: 35px;
+    height: 35px;
+}
+
