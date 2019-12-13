@@ -2,14 +2,14 @@ import React from 'react';
 
 import './App.css';
 
-import Cardapio425px from './425px.png'
+import Cardapio from './CardapioTche.png'
 
 
 function App() {
   return (
     <div>
       
-      <img src={Cardapio425px} alt="Cardápio Tchê Lanches"/>
+      <img src={Cardapio} alt="Cardápio Tchê Lanches"/>
       
     </div>
   );
