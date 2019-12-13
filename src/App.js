@@ -2,15 +2,19 @@ import React from 'react';
 
 import './App.css';
 
-import Cardapio from './CardapioTche.png'
+import CardapioG from './cardapioG.png'
+import Telefone from './telefone.png'
 
 
 function App() {
   return (
     <div>
-      
-      <img src={Cardapio} alt="Cardápio Tchê Lanches"/>
-      
+      <div>
+        <img src={CardapioG} alt="Cardápio Tchê Lanches" width="425px"/>
+      </div>
+      <div className="telefone">
+        <img src={Telefone} alt="Contato" width="425px" />
+      </div>
     </div>
   );
 }
