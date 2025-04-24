@@ -6,7 +6,7 @@
     "firebase-admin": "^8.6.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-router-dom": "^5.0.1",
+    "react-router-dom": "^7.5.2",
     "react-scripts": "3.1.0"
   },
   "scripts": {
